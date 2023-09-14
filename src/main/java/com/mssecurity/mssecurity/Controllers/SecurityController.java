@@ -19,7 +19,7 @@ import java.util.List;
 
 @CrossOrigin
 @RestController
-@RequestMapping("security")
+@RequestMapping("api/public/security")
 public class SecurityController {
     @Autowired
     private UserRepository theUserRepository;
